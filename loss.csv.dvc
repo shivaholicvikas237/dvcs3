@@ -1,0 +1,4 @@
+outs:
+- md5: 7ee1928a20be77b74befd01fc4a3da63
+  size: 617
+  path: loss.csv
