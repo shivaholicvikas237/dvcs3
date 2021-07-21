@@ -2,4 +2,3 @@
     remote = storage
 ['remote "storage"']
     url = s3://dvcbucket101/data/
-    endpointurl = https://raw-data-storage.radioscopy.smart-mobility.alstom.com/minio/mlruns/
