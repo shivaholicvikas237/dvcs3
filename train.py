@@ -25,7 +25,8 @@ print("Get overall accuracy")
 y_score = clf.predict(X_test)
 prec = precision_score(y_test, y_score)
 rec = recall_score(y_test,y_score)
-print("Get precision and recall",rec)
+print("Get precision value",prec)
+print("Get recall value",rec)
 # Get the loss
 loss = clf.loss_curve_
 pd.DataFrame(loss, columns=["loss"]).to_csv("loss.csv", index=False)
