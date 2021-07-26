@@ -1,0 +1,6 @@
+stages:
+  every100:
+    cmd: iterate.py
+    outs:
+      - int.txt:
+          checkpoint: true
