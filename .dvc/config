@@ -1,4 +1,9 @@
 [core]
-    remote = storage
+    remote = minio
 ['remote "storage"']
     url = s3://dvcbucket101/data/
+['remote "minio"']
+    url = s3://dvc/data/
+    endpointurl = https://raw-data-storage.radioscopy.smart-mobility.alstom.com/
+    access_key_id = radioscopyqa
+    secret_access_key = C:/Program Files/Git/XBX6oO++dsIdMPsZADbnx0XqqDErd2v8UAK9RcYvGT3dNW9yfnJ4MrWjgreVS1A35MtNGX0uOyeqZtlM82q0g==
